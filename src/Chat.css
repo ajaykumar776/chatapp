@@ -1,0 +1,64 @@
+.message-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  .messages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between messages */
+    overflow-y: auto; /* Allows scrolling if messages overflow */
+  }
+  
+  .message {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .my-message {
+    background-color: #dcf8c6;
+    text-align: right;
+  }
+  
+  .other-message {
+    background-color: #ffffff;
+    text-align: left;
+  }
+  .send-message {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+  }
+  
+  .send-message input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  }
+  
+  .send-message button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-message button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
